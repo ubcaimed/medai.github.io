@@ -3,60 +3,60 @@
 
 /* Reset CSS */
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
+    display: block;
 }
 
 body {
-  line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
-  color: #333333;
-  background-color: #ffffff;
-  padding: 20px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+    padding: 20px;
 }
 
 ol, ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote, q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
+    content: '';
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Global Styles */
 a {
-  color: #1a9da2;
-  text-decoration: none;
+    color: #1a9da2;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #136970;
+    color: #136970;
 }
 
 /* Typography */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
-  color: #2c3e50;
-  margin-bottom: 20px;
+    font-family: 'Merriweather', serif;
+    color: #2c3e50;
+    margin-bottom: 20px;
 }
 
 h1 { font-size: 2.5rem; }
@@ -67,78 +67,78 @@ h5 { font-size: 1.25rem; }
 h6 { font-size: 1rem; }
 
 p {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
 }
 
 /* Layout */
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px; /* Add spacing between columns */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Add spacing between columns */
 }
 
 .col-4 {
-  flex: 0 0 33.333333%; /* Flex grow, flex shrink, and base width */
-  padding: 0 15px; /* Adjust padding as necessary */
+    flex: 0 0 33.333333%; /* Flex grow, flex shrink, and base width */
+    padding: 0 15px; /* Adjust padding as necessary */
 }
 
 /* Buttons and Forms */
 button, input[type="submit"] {
-  background-color: #1a9da2;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background-color 0.3s;
+    background-color: #1a9da2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
 }
 
 button:hover, input[type="submit"]:hover {
-  background-color: #136970;
+    background-color: #136970;
 }
 
 input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 1.5rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 /* Footer Styles */
 footer {
-  background-color: #2c3e50;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .icons li {
-  display: inline;
-  margin: 0 10px;
+    display: inline;
+    margin: 0 10px;
 }
 
 .icons a {
-  color: white;
-  font-size: 1.25rem;
+    color: white;
+    font-size: 1.25rem;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-  .row {
-    flex-direction: column;
-  }
-  
-  .col-4 {
-    width: 100%;
-  }
+    .row {
+        flex-direction: column;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
 }
