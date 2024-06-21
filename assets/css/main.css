@@ -37,6 +37,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.team-image {
+    width: 100%; /* Ensure images take full width of the column */
+    height: 200px; /* Fixed height for uniformity */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    border-radius: 10px; /* Rounded corners */
+}
+
 body {
 	line-height: 1;
 }
